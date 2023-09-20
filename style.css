@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+}
+
+/*Central Form Container*/
+#central-container {
+    border-radius: 15px;
+    background: #FFFF;
+    padding: 20px;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*Form Header*/
+.content-header {
+    margin: 10px 0 0px;
+}
+
+.content-header h1 {
+    color: rgb(184, 184, 184);
+    font-size: 35px;
+}
+
+.content-header p {
+    color: rgb(78, 78, 78);
+}
+
+/*Line*/
+.line {
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Form Asks(?)*/
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+label {
+    color: rgb(143, 143, 143);
+    font-weight: 550;
+}
+
+.input-box,
+.input-ask {
+    height: fit-content;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 0 8px 10px;
+}
+
+/*Button*/
+.button {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+}
+
+.button:hover {
+    color: #FFFF;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+/*Footer*/
+footer {
+    margin: 15px;
+    padding: 3px;
+    color: #FFFF;
+
+}
+
+footer p {
+    font-weight: 550;
+    font-size: 17px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    padding: 3px;
+}
+
+.social-link1,
+.social-link2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 9px;
+    margin: 0 3px;
+}
+
+.social .social-link1:hover {
+    background-color: #0a66c2;
+    border-radius: 50px;
+    animation: bounce_613 0.6s linear;
+}
+
+.social .social-link2:hover {
+    background-color: black;
+    border-radius: 50px;
+    animation: bounce_613 0.6s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*Inspiration
+  https://uiverse.io/zanina-yassine/angry-shrimp-34
+  https://uiverse.io/gharsh11032000/bitter-cow-59
+  https://uiverse.io/ahmed150up2/ordinary-snake-7
+  */
+
+/*Check Page*/
+.content-header-check {
+    margin: 10px 0 0px;
+}
+
+.content-header-check h1 {
+    color: #5ec475;
+    font-size: 35px;
+}
+
+.content-header-check p {
+    color: rgb(78, 78, 78);
+}
