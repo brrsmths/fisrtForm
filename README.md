@@ -9,11 +9,10 @@ A proposta foi fazer um construir um formulário simples com intuito de treinar 
 ## Inspirações
 Busquei inspirações mais clean e minimalistas, usando principalmente estes dois formulários abaixo como inspiração:
 
-![image](https://github.com/brrsmths/ProjetosFaculdade/assets/121468822/f1ce6000-bbd0-425f-a265-c9a958e3301e)
+![image](https://github.com/brrsmths/fisrtForm/assets/121468822/32f5eda1-3616-4215-9c90-8470d024b6ad)
 
 https://uiverse.io/zanina-yassine/angry-shrimp-34
 
-![image](https://github.com/brrsmths/ProjetosFaculdade/assets/121468822/c34b0ad6-10df-44a4-b7cd-7554e3b17038)
 
 https://uiverse.io/gharsh11032000/bitter-cow-59
 
@@ -21,7 +20,7 @@ Estes são os modelos que tomei por referência para estruturar e estilizar meu 
 
 Agora, abaixo está de onde me tive a ideia de inserir os icones do linkedIn e do GitHub e também peguei o código da animação, o qual tive que adaptar ao meu contexo de estrutura. 
 
-![image](https://github.com/brrsmths/ProjetosFaculdade/assets/121468822/98aaf88b-901e-4df4-91ab-050fb5988266)
+![image](https://github.com/brrsmths/fisrtForm/assets/121468822/841beb7b-1fc8-473b-a961-cb20538a0d96)
 
 https://uiverse.io/ahmed150up2/ordinary-snake-7
 
